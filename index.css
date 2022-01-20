@@ -1,0 +1,457 @@
+*{
+	padding: 0px;
+    margin: 0px;
+}
+
+#myNavbar a{
+    font-family: ubuntu;
+    font-size: 20px;
+    color: #f9f9f9;
+	padding: 10px;
+}
+
+#myNavbar a:hover{
+    font-family: ubuntu;
+	color: #ecf0f1;
+	font-size: 20px;
+	padding: 10px;
+}
+
+#brand a{
+    font-family: ubuntu;
+	background-color: #e74c3c;
+	color: #2c3e50;
+	font-size: 30px;
+}
+
+#list{
+	float: right;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#search{
+	color: #ecf0f1;
+	padding-left: 20px;
+    width: 40px;
+    height:40px;
+}
+
+.name a{
+   text-decoration: none;
+   position: relative;
+   list-style-type: none;
+   color: inherit;
+}
+
+.name a:hover{
+   text-decoration: none;
+   position: relative;
+   list-style-type: none;
+   color: inherit;
+}
+
+.name{
+  font-size: 80px;
+  font-family: ubuntu;
+  color: #bdc3c7;
+  cursor: pointer;
+}
+
+.name:hover{
+  font-size: 80px;
+  font-family: ubuntu;
+  color: #bdc3c7;
+}
+
+body{
+  background-image: url("back.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.intro{
+	font-size: 25px;
+	color: #3498db;
+  background-color: #bdc3c7;
+	text-align: justify;
+  outline: 2px solid #ecf0f1;
+  padding: 15px;
+}
+
+.jumbo{
+	text-align: center;
+	color: #ecf0f1;
+	font-size: 40px;
+	font-family: ubuntu;
+}
+
+.jumbo a{
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+    position: relative;
+} 
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+    position: relative;
+}
+
+ a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ecf0f1;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);	
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+ a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#intro{
+	font-size: 20px;
+	opacity: 1;
+	background-color: #000;
+	color: #2980b9;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	box-shadow: 10px 10px 5px 5px #555; 
+}
+
+#coul{
+	background-color: #3489db;
+	height: 50px;
+}
+
+#coul:hover{
+    -webkit-animation: my 5s infinite;
+    animation: my 5s infinite;
+}
+
+@-webkit-keyframe my{
+	70%{background-color: #2980b9;}
+}
+
+@keyframes my {
+  70%{background-color: #2980b9;}
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 10% all;
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+.modal::-webkit-scrollbar-thumb {
+  background-color: #3498db;
+}
+
+.modal::-webkit-scrollbar {
+    width: 0.1em;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #3498db;
+}
+
+.sum{
+  background-color: #000;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+
+}
+
+#naruto{
+    margin-top: 1%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#gunsa{
+  margin-top: 1%;
+  margin-left: 42%;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+#deathnote{
+  margin-top: 1%;
+    margin-left: 63%;
+    background-repeat: no-repeat;
+    margin-bottom: 1%;
+    height: 100%;
+    width: 100%;
+}
+
+#db{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+#fullmetal{
+      margin-top: -22%;
+    margin-left: 40%;
+    margin-bottom: 1%;
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 33%;
+}
+
+#attacktit{
+      margin-top: -22%;
+    margin-left: 75%;
+    margin-bottom: 1%;
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 25%;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 50%; 
+    height: 100%; 
+    overflow: auto; 
+
+}
+
+.modal-header{
+  background-color: #e67e22;
+  font-family: ubuntu;
+  font-size: 150%;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 100%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+  background-color: #2789db;
+}
+
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+/*  content: "";*/
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.jumbotron{
+  background-color: #000;
+  font-family: ubuntu;
+  color: #f8f8f8;
+  font-size: 110%
+}
+
+#sum{
+  background-color: #000;
+}
+
+#naruto{
+  margin-top: 15%;
+  height: 40%;
+  width: 170%;
+  margin-left: 20%;
+}
+
+#gunsa{
+  margin-top: 15%;
+  height: 40%;
+  width: 120%;
+  margin-left: 88%;
+}
+
+#dnote{
+  margin-top: 15%;
+  height: 40%;
+  width: 80%;
+  margin-left: 104%;
+}
+
+#db{
+  margin-top: 96%;
+  height: 40%;
+  width: 80%;
+  margin-left: -296%;
+}
+
+#atk{
+  margin-top: -76%;
+  margin-left: 102%;
+  height: 40%;
+  width: 120%;  
+}

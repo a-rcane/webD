@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+  <title>Astrowatch</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="func.js"></script>
+ <link rel="shortcut icon" href="pic.ico">
+</head>
+
+		<nav class="nav navbar-inverse navbar-fixed-top" id="coul">
+			<div class="navbar-header" id="brand">
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" class="icon-bar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#video">Astrowatch</a>
+    </div>
+        <div class="collapse navbar-collapse carousel-slide" id="myNavbar">
+			<ul class="nav navbar-nav">
+        <li><a data-target="#myCarousel" data-slide-to="0">Intro</a></li>
+				<li><a data-target="#myCarousel" data-slide-to="1">Favourite</a></li>
+    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="http://kissanime.to/Anime/Dragon-Ball-Z">DBz</a></li>
+          <li><a href="http://kissanime.to/Anime/Gundam-Evolve">Gundam Evolve</a></li>
+          <li><a href="http://kissanime.to/Anime/Bleach">Bleach</a></li>
+        </ul>
+      </li>
+			</ul>
+</nav>
+</div>
+  <br>
+<body>
+       <div class="container-fluid" id="temp1">
+
+  <br>
+  <div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner" role="listbox">
+       
+       <div class="item active" id="intro">
+        <a name="video"></a>
+        <div class="container-fluid">
+            
+    <!--<div class="video" id="video">
+      <video autoplay onclick="this.paused? this.play() : this.pause()">
+        <source src="vid.mp4" type="video/mp4">
+    </div>-->
+
+	<iframe width="1200" height="540" src="https://www.youtube.com/embed/qkUzpNCrNiM?autoplay=1"></iframe>
+<!--
+    <div class="audio" id="audio">
+    <audio autoplay controls>
+      <source src="aud.mp3" type="audio/mpeg">
+    </div> 
+-->
+  </div>
+  </div>
+
+      <div class="item" id="sum">
+         <div class="row">
+
+
+  <div class="column">
+    <img src="naruto2.jpg" id="naruto" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="gunsa2.jpg" id="gunsa" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="deathnote.jpg" id="dnote" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="db.jpg" id="db" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="atktitans.jpg" id="atk" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="naruto2.jpg" style="width:100%; height: 80%;">
+      <p class="jumbotron">
+       <u>Naruto</u>
+       <br>
+        Naruto Uzumaki, a hyperactive and knuckle-headed ninja, lives in Konohagakure, the Hidden Leaf village. Moments prior to his birth, a huge demon known as the Kyuubi, the Nine-tailed Fox, attacked Konohagakure and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the 4th Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto. 
+
+      Shunned because of the presence of the Kyuubi inside him, Naruto struggles to find his place in the village. He strives to become the Hokage of Konohagakure, and he meets many friends and foes along the way..........<a href="http://kissanime.to/Anime/Naruto">Watch !</a></p>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="gunsa2.jpg" style="width:100%; height: 80%;">
+      <p class="jumbotron">
+        <u>Gun Samurai</u>
+        <br>
+      The adventures of a whiny teenage Miyamoto Musashi, his electro-sword and demon-sealing revolvers, and his quest to win the love of the beautiful Kaguyahime.......<a href="http://kissanime.to/Anime/Gun-Samurai">Watch !</a></p>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="deathnote2.jpg" style="width:100%; height: 80%;">
+      <p class="jumbotron">
+      <u>Death Note</u>
+      <br>
+      Yagami Light is a 17-year-old genius from Japan who is tired of his life, school, and the state of the world as he knows it. One day, on the way home from class, Light stumbles upon a dark notebook with "Death Note" written on the front. Intrigued by its appearance, Light reads the first few sentences, only to find out that it states that anyone whose name is written inside will die. Discarding it as a joke, Light continues his daily activities. Soon after though, his human curiosity takes the better of him and prompts Light to try the notebook, discovering the truth behind first sentence. Now, with power in his hands, Yagami Light is on a quest to change the world and become God of the New World. His path to holy status won't be easy however, as another genius, known as L, is working against Light's beliefs and Light himself. Who will win this power of Gods between humans?........<a href="http://kissanime.to/Anime/Death-Note">Watch !</a>
+      </p>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="db2.jpg" style="width:100%; height: 80%;">
+      <p class="jumbotron">
+        <u>Dragon Ball</u>
+        <br>
+        Bulma is a girl in search of the mystical dragonballs that when brought together grant any wish. In her search she bumps into the owner of one of these balls, a strange boy named Goku. The two then set off together, Bulma in search of the dragonballs and Goku on a quest to become stronger.......<a href="http://kissanime.to/Anime/Dragon-Ball">Watch !</a>
+      </p>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="atktitans2.jpg" style="width:100%; height: 80%;">
+      <p class="jumbotron">
+       <u>Attack On Titan</u>
+       <br>
+       Several hundred years ago, humans were nearly exterminated by giants. Giants are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of giants.
+
+       Flash forward to the present and the city has not seen a giant in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a super giant that appears out of thin air. As the smaller giants flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single giant and take revenge for all of mankind.......<a href="http://kissanime.to/Anime/Shingeki-no-Kyojin">Watch !</a>
+      </p>
+    </div>    
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="column">
+      <img class="demo cursor" src="naruto.jpg" style="width:100%; height: 40%;" onclick="currentSlide(1)">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="gunsa.jpg" style="width:100%; height: 40%;" onclick="currentSlide(2)">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="deathnote.jpg" style="width:100%; height: 40%;" onclick="currentSlide(3)">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="db.jpg" style="width:100%; height: 40%;" onclick="currentSlide(4)">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="atktitans.jpg" style="width:100%; height: 40%;" onclick="currentSlide(5)">
+    </div>
+
+  </div>
+</div>
+  </div>
+
+
+</body>
+<script>
+     $("nav").addClass('animated bounce');
+
+     $("li").addClass('animated tada');
+
+     function openModal() {
+        document.getElementById('myModal').style.display = "block";
+      }
+
+      function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+</script>
+	</html>
